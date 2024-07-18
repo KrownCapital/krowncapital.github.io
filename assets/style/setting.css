@@ -16,6 +16,41 @@
       width: 70%;
       font-size: 7vw; } }
 
+#menu {
+  width: 100%;
+  display: flex;
+  justify-content: right; }
+  @media screen and (max-width: 768px) {
+    #menu {
+      justify-content: center;
+      margin: 2%; } }
+  #menu a {
+    background-color: #fbdc40;
+    margin: 1%;
+    padding: 2%;
+    border-radius: 6%;
+    color: #5d5d5d;
+    font-family: Avenir;
+    text-decoration: none; }
+  @media screen and (max-width: 768px) {
+    #menu {
+      font-size: 2.5vw;
+      display: inline-block; } }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    #menu {
+      text-align: center;
+      font-size: 1vw; } }
+
+#joindentechs {
+  display: block;
+  background-color: blue;
+  color: #fff;
+  padding: 1%;
+  border-radius: 6%;
+  margin: 2%; }
+  #joindentechs:hover {
+    box-shadow: 3px 3px 6px #5d5d5d; }
+
 table {
   border-radius: 6px;
   padding: .3rem;
