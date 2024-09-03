@@ -1,3 +1,4 @@
+
 #krown{
     width: 20%;
     @media screen and (max-width: 768px) {
@@ -48,6 +49,41 @@
 
 
   }
+  #main{
+    font-family: Avenir;
+    justify-content: center;
+    display:flex;
+    flex-flow: row wrap;
+    @media screen and (max-width: 768px) {
+      padding-top:5%;
+    }
+  }
+
+#paste{
+  padding-top:5%;
+  font-size: 2.4vw; 
+  font-family: Avenir;
+  width: 30%;
+
+}
+#get, #dao{
+  width:40%;
+  font-size: 2.4vw; 
+  font-family: Avenir;
+  border:5px solid #000; 
+  border-radius: 3px; 
+  padding:3%;
+  display: inline-block;
+  @media screen and (max-width: 768px) {
+    width:60%;
+    margin: 1%;
+    border:3px solid #000;
+  }
+}
+.buy{font-family: monospace;
+    color:black;
+}
+
 #joindentechs{
     display: block;background-color: blue;color:#fff;padding: 1%;border-radius: 6%;margin: 2%;
     &:hover{box-shadow: 3px 3px 6px #5d5d5d;}
